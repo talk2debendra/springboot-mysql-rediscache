@@ -29,8 +29,8 @@ public class District extends AbstractJpaEntity {
 	
 	private String name;
 	
-	@ManyToOne(targetEntity = State.class, fetch = FetchType.LAZY)
-	@Column(name = "state_id")
-	private State state;
+//	@ManyToOne(targetEntity = State.class, fetch = FetchType.EAGER)
+//	@Column(name = "state_id")
+//	private State state;
 	
 }

@@ -25,4 +25,6 @@ public class State extends AbstractJpaEntity {
 	private String code;
 	
 	private String name;
+	
+	
 }

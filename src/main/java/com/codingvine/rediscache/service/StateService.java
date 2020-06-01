@@ -9,6 +9,6 @@ public interface StateService {
 
 	State save(StateDto stateDto);
 	State update(StateDto stateDto);
-	State delete(Long stateId);
+	boolean delete(Long stateId);
 	List<State> getAllStates();
 }

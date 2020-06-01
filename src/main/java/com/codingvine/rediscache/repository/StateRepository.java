@@ -9,4 +9,6 @@ import com.codingvine.rediscache.entity.State;
 @Repository
 public interface StateRepository extends JpaRepository<State, Long>{
 
+	State findByCode(String code);
+
 }
